@@ -1,0 +1,20 @@
+DBT;
+DBC  3;
+DAL 1;
+MAV 255;		//début séquence
+SGO 69;
+ATT 80;
+TRD;
+TRG;
+MRE 255;
+ATT 80;
+MAR;
+ATT 40;
+SAR;
+DET 01;
+ATT 40;
+FBC;
+FIN;		//fin sequence
+
+
+

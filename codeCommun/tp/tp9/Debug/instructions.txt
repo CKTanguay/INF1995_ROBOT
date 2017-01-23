@@ -1,0 +1,22 @@
+//***fichier d'instructions***//
+
+
+DBT;		//début séquence
+DAL 1; 		//allumage del 1
+ATT 20;		//attend 0.5 seconde
+DET 1;		//on eteint la del 1	
+ATT 80;		//on attend 2 secondes
+DAL 1;		//allumage del 1
+ATT 40;		//on attend 1 seconde
+DET 1;		//on eteint la del 1
+//DBC 2;		//debut boucle
+//FBC;		//fin boucle
+FIN;		//fin sequence
+
+
+//progmem -o bytecode instructions.txt -> générer le fichier bytecode
+
+//progmem -v -o bytecode instructions.txt -> afficher les instructions du fichier bytecode dans le terminal
+
+//od -v -t x1 bytecode -> affiche le bytecode pur
+
